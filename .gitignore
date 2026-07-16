@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# next.js build output (if root ever builds)
+.next/
+out/
+build/
+
+# env / secrets
+.env
+.env*.local
+
+# os
+.DS_Store
+*.pem
+
+# logs
+*.log
+npm-debug.log*
+
+# Legacy Vite app — superseded by cavele-next/. Kept on disk for reference,
+# but no longer tracked or its own git repo.
+/elevate-web-media/
