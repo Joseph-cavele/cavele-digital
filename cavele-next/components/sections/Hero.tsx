@@ -52,7 +52,7 @@ export function Hero() {
               <img
                 src="/hero-bg.png"
                 alt="Cavele Digital — custom web development"
-                className="w-full h-64 md:h-[420px] object-cover rounded-3xl shadow-md"
+                className="w-full h-64 md:h-105 object-cover rounded-3xl shadow-md"
               />
             </div>
 

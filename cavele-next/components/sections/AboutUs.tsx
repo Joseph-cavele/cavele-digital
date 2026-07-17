@@ -17,7 +17,7 @@ export function AboutUs() {
           <img
             src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1000&q=80"
             alt="Building custom websites and systems"
-            className="w-full h-full object-cover min-h-[300px]"
+            className="w-full h-full object-cover min-h-75"
           />
           <div className="absolute bottom-5 left-5 bg-white rounded-xl px-5 py-3 shadow-lg">
             <p className="text-lg font-extrabold font-poppins text-gray-900 leading-none">Cavele Digital</p>
