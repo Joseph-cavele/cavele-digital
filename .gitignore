@@ -1,23 +1,31 @@
 # dependencies
-node_modules/
+/node_modules
+/.pnp
+.pnp.js
 
-# next.js build output (if root ever builds)
-.next/
-out/
-build/
+# next.js
+/.next/
+/out/
 
-# env / secrets
-.env
-.env*.local
+# production
+/build
 
-# os
+# misc
 .DS_Store
 *.pem
 
-# logs
-*.log
+# debug
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Legacy Vite app — superseded by cavele-next/. Kept on disk for reference,
-# but no longer tracked or its own git repo.
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# legacy Vite app (reference only)
 /elevate-web-media/
