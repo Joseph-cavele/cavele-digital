@@ -3,6 +3,8 @@ import { Navbar } from "@/components/sections/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { Services } from "@/components/sections/Services";
 import { Work } from "@/components/sections/Work";
+import { CaseStudies } from "@/components/sections/CaseStudies";
+import { Testimonials } from "@/components/sections/Testimonials";
 import { AboutUs } from "@/components/sections/AboutUs";
 import { Features } from "@/components/sections/Features";
 import { Process } from "@/components/sections/Process";
@@ -20,8 +22,10 @@ export default function HomePage() {
         <Hero />
         <Services />
         <Work />
+        <CaseStudies />
         <AboutUs />
         <Features />
+        <Testimonials />
         <Process />
         <Faq />
         <QuoteCta />

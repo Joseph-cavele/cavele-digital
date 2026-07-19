@@ -9,6 +9,7 @@ type Project = {
   domain?: string;
   live?: string;
   flagship?: boolean;
+  label?: string;
 };
 
 const PROJECTS: Project[] = [
@@ -28,6 +29,16 @@ const PROJECTS: Project[] = [
     result: "Quote requests saved to a leads dashboard",
     image: "https://image.thum.io/get/width/900/crop/675/https://mukhabelaconstruction.co.za",
     live: "https://mukhabelaconstruction.co.za",
+  },
+  {
+    // TODO: deployment is behind Vercel authentication — once protection is
+    // disabled (or a public production URL exists), add `live` and switch
+    // `image` to the thum.io screenshot like the other live projects.
+    title: "Shalom Training School",
+    category: "College System",
+    result: "Online applications + secure login + dashboard",
+    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=900&q=80",
+    label: "Client system",
   },
   {
     title: "Business Automation",
@@ -51,8 +62,9 @@ export function Work() {
               Real projects, really built
             </h2>
             <p className="text-gray-500 font-OpenSans leading-relaxed">
-              A few of the projects I&apos;ve designed and built from scratch. Two are live —
-              click through and see for yourself.
+              A few of the projects I&apos;ve designed and built from scratch — websites,
+              booking systems and a college application system. Click through the live
+              ones and see for yourself.
             </p>
           </div>
           <BtnPrimary to="/quote">Start Your Project</BtnPrimary>
@@ -82,7 +94,7 @@ export function Work() {
                   ) : (
                     <div className="flex items-center gap-2 px-4 py-3 text-gray-500">
                       <Workflow size={15} />
-                      <span className="text-[11px] font-medium uppercase tracking-wide">Internal project</span>
+                      <span className="text-[11px] font-medium uppercase tracking-wide">{p.label ?? "Internal project"}</span>
                     </div>
                   )}
                   <div className="h-52 overflow-hidden">
