@@ -43,6 +43,31 @@ export function Hero() {
             <BtnPrimary to="/quote">Get a Quote</BtnPrimary>
             <BtnOutline to="/#work">View Our Work</BtnOutline>
           </div>
+
+          {/* Real clients only — never reintroduce invented counts (see CLAUDE.md) */}
+          <div className="f4 mt-9 flex items-center gap-3">
+            <div className="flex -space-x-2.5">
+              {[
+                { initials: "GG", bg: "#2563EB" },
+                { initials: "MC", bg: "#4F46E5" },
+                { initials: "ST", bg: "#0891B2" },
+              ].map((c) => (
+                <span
+                  key={c.initials}
+                  className="w-9 h-9 rounded-full border-2 border-white flex items-center justify-center text-[11px] font-bold text-white font-poppins"
+                  style={{ background: c.bg }}
+                >
+                  {c.initials}
+                </span>
+              ))}
+            </div>
+            <p className="text-xs text-gray-500 leading-snug max-w-xs">
+              Real client projects —{" "}
+              <span className="font-semibold text-gray-700">
+                Glow &amp; Grace Salon, Mukhabela Construction &amp; Shalom Training School
+              </span>
+            </p>
+          </div>
         </div>
 
         {/* RIGHT */}

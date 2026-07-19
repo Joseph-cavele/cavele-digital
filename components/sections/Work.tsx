@@ -37,7 +37,7 @@ const PROJECTS: Project[] = [
     title: "Shalom Training School",
     category: "College System",
     result: "Online applications + secure login + dashboard",
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=900&q=80",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=900&q=80",
     label: "Client system",
   },
   {
