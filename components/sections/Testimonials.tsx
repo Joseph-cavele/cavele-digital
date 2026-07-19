@@ -37,6 +37,7 @@ const CLIENTS: Client[] = [
     initials: "ST",
     name: "Shalom Training School",
     project: "College system — applications, login & dashboard",
+    live: "https://shalom-college-ten.vercel.app/",
   },
 ];
 

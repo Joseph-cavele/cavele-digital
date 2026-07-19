@@ -42,6 +42,7 @@ const CASE_STUDIES: CaseStudy[] = [
     ],
     outcome:
       "Applications move from paperwork to an online flow the school can track — students apply from their phones, wherever they are.",
+    live: "https://shalom-college-ten.vercel.app/",
   },
   {
     tag: "Website + Leads Dashboard",

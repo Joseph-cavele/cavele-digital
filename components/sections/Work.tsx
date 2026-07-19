@@ -31,14 +31,12 @@ const PROJECTS: Project[] = [
     live: "https://mukhabelaconstruction.co.za",
   },
   {
-    // TODO: deployment is behind Vercel authentication — once protection is
-    // disabled (or a public production URL exists), add `live` and switch
-    // `image` to the thum.io screenshot like the other live projects.
     title: "Shalom Training School",
+    domain: "shalom-college-ten.vercel.app",
     category: "College System",
     result: "Online applications + secure login + dashboard",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=900&q=80",
-    label: "Client system",
+    image: "https://image.thum.io/get/width/900/crop/675/https://shalom-college-ten.vercel.app/",
+    live: "https://shalom-college-ten.vercel.app/",
   },
   {
     title: "Business Automation",
